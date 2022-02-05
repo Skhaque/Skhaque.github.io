@@ -1,0 +1,91 @@
+body {
+	font-family: sans-serif;
+	background-image: url("./pexels-wendy-wei-2753432.jpg");
+	background-color: #cccccc; 
+	color: white;
+}
+
+.me{
+	float:left;
+	height: 200px;
+	width: 200px;
+}
+
+.me img {  
+	height: auto;
+	width: 100%; 
+}
+
+header h1,h2{
+	text-align: center;
+}
+
+header h1{
+	text-decoration: underline;
+}
+
+header p{
+	text-align:right;
+	padding-right: 8px;
+}
+
+.zebratab {
+	border: none;
+	margin-left:auto;
+	margin-right:auto;
+	width: 40%;
+    height: 40%;
+	color: black;
+	font-size: 14px;
+}
+
+.zebratab tr.type {
+	text-align:left;
+	font-size:24px;
+}
+
+.zebratab tr:nth-child(even) {
+  background-color: #b8d1f3;
+}
+
+.zebratab tr:nth-child(odd) {
+  background-color: #dae5f4;
+}
+
+ul.notnested {
+    margin-right: 400px;
+    display: inline-block;
+}	
+
+ul.notnested li {
+    font-size: 24px;
+	text-decoration: none;
+}
+
+ul.notnested li.under {
+	text-decoration: underline;
+	font-size: 36px;
+	list-style-type: none;
+}
+
+.quote {
+	border: 5px;
+	text-align: center;
+}
+
+a:visited {
+	color: green;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: purple;
+}
+
+span {
+	color:red;
+	font-weight:bold;
+}

@@ -45,11 +45,11 @@ header p{
 }
 
 .zebratab tr:nth-child(even) {
-  background-color: #b8d1f3;
+  background-color: #698C8C;
 }
 
 .zebratab tr:nth-child(odd) {
-  background-color: #dae5f4;
+  background-color: #969696;
 }
 
 ul.notnested {
